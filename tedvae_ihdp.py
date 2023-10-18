@@ -14,7 +14,7 @@ logging.getLogger("pyro").handlers[0].setLevel(logging.DEBUG)
 
 
 
-
+# lwy
 def main(args,reptition = 1, path = "./IHDP/"):
     pyro.enable_validation(__debug__)
     # if args.cuda:
